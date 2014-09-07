@@ -1,0 +1,22 @@
+{
+  "name": "Clerk",
+  "description": "A helper to make sense of your finances",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16": "img/quill-16.png",
+    "32": "img/quill-32.png",
+    "64": "img/quill-64.png",
+    "128": "img/quill-128.png",
+    "256": "img/quill-256.png",
+    "512": "img/quill-512.png"
+  }
+}
